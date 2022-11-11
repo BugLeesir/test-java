@@ -5,9 +5,8 @@ public class MyStringDemo{
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
         Class<?> c = Class.forName("Student");
         Constructor<?> con = c.getConstructor(String.class,int.class);
-        Object obj = con.newInstance("李云瑞",55);
+        Object obj = con.newInstance("脌卯脭脝脠冒",55);
         System.out.println(obj);
-        System.out.println("这是反射");
     }
     
 }
