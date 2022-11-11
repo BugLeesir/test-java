@@ -7,6 +7,7 @@ public class MyStringDemo{
         Constructor<?> con = c.getConstructor(String.class,int.class);
         Object obj = con.newInstance("李云瑞",55);
         System.out.println(obj);
+        System.out.println("这是反射");
     }
     
 }
