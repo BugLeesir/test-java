@@ -8,7 +8,6 @@ public class MyStringDemo{
         Object obj = con.newInstance("haha",55);
         System.out.println(obj);
         System.out.println("hellojava");
-        System.out.println("jdfis");
     }
     
 }
