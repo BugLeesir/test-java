@@ -7,6 +7,5 @@ public class MyStringDemo{
         Constructor<?> con = c.getConstructor(String.class,int.class);
         Object obj = con.newInstance("haha",55);
         System.out.println(obj);
-        System.out.println("hellojava");
     }
 }
